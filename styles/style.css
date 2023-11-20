@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Halton-regular";
+    src: url(assets/Halton/Halton\ regular.otf) format("opentype");
+}
+  
+  @font-face {
+    font-family: "Halton-bold";
+    src: url(/assets/Halton/Halton\ bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+html{
+    --bg:#272932;
+    --text:#ecf8f8;
+    --primary:#947eb0;
+    --second:#519879;
+    --accent:#FB8B24;
+    --btn-radius:2.5em;
+    --sec-radius:.25em;
+}
+
+
+
