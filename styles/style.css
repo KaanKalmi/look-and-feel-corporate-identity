@@ -17,13 +17,26 @@ html {
 
 body {
     margin: 0;
-    font-family: 'halton-regular', sans-serif;
+    font-family: 'halton-regular', Arial, Helvetica, sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'halton-bold', sans-serif;
+h1, h2, h3 {
+    font-family: 'halton-bold', Arial, Helvetica, sans-serif;
     text-transform: var(--title);
     text-align: center;
+}
+
+p{
+    font-family: 'halton-regular', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+/*temporary stuff*/
+section{
+    margin-top: 7.75em;
+    position: absolute;
+    left: 35%;
+    right: 50%;
+    width: 35%;
 }
