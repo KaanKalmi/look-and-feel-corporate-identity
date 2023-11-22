@@ -4,9 +4,9 @@
 /*Nav styling*/
 nav {
     font-family: 'Halton-bold', sans-serif;
-    font-weight: 600;
+    font-weight: var(--chubby);
     background-color: var(--bg);
-    text-transform: var(--title);
+    text-transform: var(--cap);
 }
 
 nav ul {
@@ -27,4 +27,5 @@ nav a {
 
 nav a:hover {
     color: var(--accent);
+    font-size:1.125em;
 }
