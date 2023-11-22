@@ -12,36 +12,42 @@ html {
     --accent: #FB8B24;
     --btn-radius: 2.5em;
     --sec-radius: .25em;
-    --title: capitalize;
+    --cap: capitalize;
+    --fat: 800;
+    --chubby:600;
 }
 
 body {
     margin: 0;
     font-family: 'halton-regular', Arial, Helvetica, sans-serif;
+    background-color:var(--bg);
+    color:var(--text);
 }
 
 h1, h2, h3 {
     font-family: 'halton-bold', Arial, Helvetica, sans-serif;
-    text-transform: var(--title);
+    font-weight:var(--fat);
+    text-transform: var(--cap);
     text-align: center;
 }
 
 p{
     font-family: 'halton-regular', Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: var(--chubby);
     color: var(--accent);
 }
 
-/*temporary stuff*/
+/*temporary customized section, for gathering my style*/
 section{
     margin-top: 7.75em;
     position: absolute;
     left: 35%;
     right: 50%;
     width: 35%;
-    background-color:var(--second);
+    border-radius:var(--sec-radius);
 }
 
+/*idk why dont complain im having fun*/
 section h2{
 color:var(--bg);
 background-color:var(--text);
