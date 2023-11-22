@@ -39,4 +39,10 @@ section{
     left: 35%;
     right: 50%;
     width: 35%;
+    background-color:var(--second);
 }
+
+section h2{
+color:var(--bg);
+background-color:var(--text);
+} 
