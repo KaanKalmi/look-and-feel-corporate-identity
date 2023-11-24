@@ -1,0 +1,48 @@
+/*imports*/
+@import url(fonts.css);
+
+/*main styling*/
+header{
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 5em;
+}
+
+nav {
+    font-family: 'Halton-bold', sans-serif;
+    font-size: 1.25em;
+    font-weight: var(--chubby);
+    background-color: var(--bg-color);
+    text-transform: var(--cap);
+    border-bottom: 1px solid var(--text-color);
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: var(--text-color);
+    text-align: center;
+    padding: 1.25em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+h1 {
+    font-family: 'halton-bold', Arial, Helvetica, sans-serif;
+    font-weight:var(--fat);
+    text-transform: var(--cap);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 2em;
+}
