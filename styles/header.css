@@ -4,7 +4,7 @@
 /*main styling*/
 header{
     border-bottom: 1px solid var(--text-color);
-    padding-bottom: 5em;
+    padding-bottom: 3.5em;
 }
 
 nav {
