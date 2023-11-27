@@ -18,23 +18,23 @@ nav {
     padding-bottom: .25em;
 }
 
-nav ul {
+& ul {
     list-style-type: none;
     display: inline-block;
 }
 
-nav li {
+& li {
     display: inline;
 }
 
-nav a {
+& a {
     color: var(--text-color);
     text-align: center;
     padding: 1.25em;
     text-decoration: none;
 }
 
-nav a:hover {
+& a:hover {
     color: var(--accent-color);
 }
 
