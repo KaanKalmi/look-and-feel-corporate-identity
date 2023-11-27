@@ -13,7 +13,8 @@ Tijdens deze sprint ga ik werken aan een pagina van de hand-/footprint applicati
 
 
 <!-- Voeg een mooie poster visual toe 📸 -->
-![image](https://github.com/KaanKalmi/look-and-feel-corporate-identity/assets/144000125/2f4fc3d8-e247-4826-bcba-d0a405f61af1)
+![output-onlinepngtools](https://github.com/KaanKalmi/look-and-feel-corporate-identity/assets/144000125/e4d9e967-0bc8-42a5-b5c7-9240e6071be9)
+
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 https://kaankalmi.github.io/look-and-feel-corporate-identity/
