@@ -1,3 +1,59 @@
 main{
+    display: grid;
+    grid-template-areas: "icon main-text";
+    grid-template-columns: 1fr 2fr;
     padding: 2em;
+    height: 60vh;
 }
+
+.icon{
+    height: 25em;
+    width: 25em;
+    margin: 3.25em;
+    border-radius: 3.25em;
+    grid-area: icon;
+}
+
+.main-text{
+    font-family: 'halton-regular', Arial, Helvetica, sans-serif;
+    padding-top: 3.5em;
+    padding-left: 3.5em;
+    display: inline-block;
+    grid-area: main-text;
+    max-width: 75ch;
+    & p{
+        text-align: center;
+        font-weight: var(--chubby);
+    }
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: var(--btn-radius);
+    margin: 5em;
+    padding: .75em;
+    font-weight: var(--chubby);
+    text-transform: var(--cap);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    & a{
+        text-decoration: none;
+        color: var(--text-color);
+    }
+}
+
+.btn:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    filter: var(--btn-hover);
+}
+
+.btn:active{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    filter: var(--btn-active);
+}
+
