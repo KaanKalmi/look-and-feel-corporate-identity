@@ -30,7 +30,7 @@ nav {
     display: inline;
 }
 
-& a {
+a, & a {
     color: var(--text-color);
     text-align: center;
     padding: 1.25em;
