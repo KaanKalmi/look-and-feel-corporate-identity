@@ -15,7 +15,7 @@ html {
     --sec-radius: .25em;
     --cap: capitalize;
     --fat: 800;
-    --chubby:600;
+    --chubby: 600;
     --btn-hover: brightness(120%);
     --btn-active: brightness(80%);
 }
@@ -23,7 +23,47 @@ html {
 body {
     margin: 0;
     font-family: 'halton-regular', Arial, Helvetica, sans-serif;
-    background-color:var(--bg-color);
-    color:var(--text-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
     height: 100vh;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: var(--btn-radius);
+    margin: 5em;
+    padding: .75em;
+    font-weight: var(--chubby);
+    text-transform: var(--cap);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    & a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    &.btn:hover {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        filter: var(--btn-hover);
+    }
+
+    & .btn:active {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        filter: var(--btn-active);
+    }
+}
+
+p {
+    text-align: center;
+    font-weight: var(--chubby);
+    text-transform: var(--cap);
+}
+
+blockquote {
+    max-width: 75ch;
 }
