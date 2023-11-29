@@ -12,6 +12,7 @@ main{
     margin: 3.25em;
     border-radius: 3.25em;
     grid-area: icon;
+    padding-right: 1em;
 }
 
 .main-text{
@@ -24,6 +25,7 @@ main{
     & p{
         text-align: center;
         font-weight: var(--chubby);
+        text-transform: var(--cap);
     }
 }
 
