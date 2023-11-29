@@ -1,7 +1,9 @@
 main{
     display: flex;
     padding: 2em;
-    height: 60vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .icon{
@@ -22,15 +24,23 @@ main{
 
 div{
     display:flex;
-    width: 50vw;
-    flex-direction: row;
+    width: 90vw;
     flex-wrap: wrap;
+    margin-bottom: 5em;
+    height: 8em;
 }
 
+.title-main{
+    display: block;
+    margin-top: 1em;
+    width: 90vw;
+}
 .left{
-    float: left;
+    flex-direction: row-reverse;
+    text-align: justify;
 }
 
 .right{
-    float: right;
+    flex-direction: row;
+    text-align: right;
 }

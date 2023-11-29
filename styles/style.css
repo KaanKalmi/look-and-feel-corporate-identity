@@ -67,3 +67,7 @@ p {
 blockquote {
     max-width: 75ch;
 }
+
+h2{
+    color: var(--accent-color);
+}
