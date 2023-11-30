@@ -15,7 +15,7 @@ main{
     height: 25em;
     width: 25em;
     margin: 3.25em;
-    border-radius: var(--icon-radius);;
+    border-radius: var(--icon-radius);
     padding-right: 1em;
 }
 
