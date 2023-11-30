@@ -7,7 +7,7 @@ main{
     "ownandfin img-right"
     "img-left supply"
     "customer img-right"
-    grid-template-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-row: repeat(5, 1fr);
 }
 
