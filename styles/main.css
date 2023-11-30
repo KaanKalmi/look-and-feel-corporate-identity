@@ -1,9 +1,12 @@
 main{
-    display: flex;
+    display: grid;
     padding: 2em;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    grid-template-area:
+    "stakeholder img-right"
+    "img-left stakeholder"
+    "stakeholder img-right"
+    "img-left stakeholder"
+    "stakeholder img-right"
 }
 
 .icon{
@@ -22,20 +25,9 @@ main{
     max-width: 75ch;
 }
 
-div{
-    display:flex;
-    width: 90vw;
-    flex-wrap: wrap;
-    margin-bottom: 5em;
-    height: 8em;
+.img-right, .img-left{
+height:25em;
+width:25em;
+margin:3.25em;
 }
 
-.left{
-    flex-direction: row-reverse;
-    text-align: justify;
-}
-
-.right{
-    flex-direction: row;
-    text-align: right;
-}
