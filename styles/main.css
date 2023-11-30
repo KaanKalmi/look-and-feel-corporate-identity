@@ -1,25 +1,25 @@
-main{
+main {
     display: grid;
     padding: 2em;
     grid-template-areas:
-                         "environment img-right"
-                         "img-left staff "
-                         "ownandfin img-right-2"
-                         "img-left-2 supply"
-                         "customer img-right-3";
+        "environment img-right"
+        "img-left staff "
+        "ownandfin img-right-2"
+        "img-left-2 supply"
+        "customer img-right-3";
     grid-template-columns: auto;
     grid-template-rows: repeat(5, 1fr);
 }
 
-.icon{
-    height: 25em;
-    width: 25em;
+.icon {
+    height: 5em;
+    width: 5em;
     margin: 3.25em;
     border-radius: var(--icon-radius);
     padding-right: 1em;
 }
 
-.main-text{
+.main-text {
     font-family: 'halton-regular', Arial, Helvetica, sans-serif;
     padding-top: 3.5em;
     padding-left: 3.5em;
@@ -27,22 +27,32 @@ main{
     max-width: 75ch;
 }
 
-.img-right{
-display:inline-block;
-float:right;
-grid-area:img-right;
+.img-right {
+    display: inline-block;
+    grid-area: img-right;
 }
 
-.img-left{
-display:inline-block;
-float:left;
-grid-area:img-left;
+.img-left {
+    display: inline-block;
+    grid-area: img-left;
 }
 
-.environment{
-grid-area:environment;}
+.environment {
+    grid-area: environment;
+}
 
-.staff{grid-area:staff;}
-.ownandfin{grid-area:ownandfin;}
-.supply{grid-area:supply;}
-.customer{grid-area:customer;}
+.staff {
+    grid-area: staff;
+}
+
+.ownandfin {
+    grid-area: ownandfin;
+}
+
+.supply {
+    grid-area: supply;
+}
+
+.customer {
+    grid-area: customer;
+}
