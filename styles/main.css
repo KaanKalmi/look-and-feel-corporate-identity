@@ -30,10 +30,19 @@ main{
 .img-right{
 display:inline-block;
 float:right;
+grid-area:img-right;
 }
 
 .img-left{
 display:inline-block;
 float:left;
+grid-area:img-left;
 }
 
+.environment{
+grid-area:environment;}
+
+.staff{grid-area:staff;}
+.ownandfin{grid-area:ownandfin;}
+.supply{grid-area:supply;}
+.customer{grid-area:customer;}
