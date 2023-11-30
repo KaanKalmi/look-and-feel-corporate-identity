@@ -27,9 +27,13 @@ main{
     max-width: 75ch;
 }
 
-.img-right, .img-left{
-height:25em;
-width:25em;
-margin:3.25em;
+.img-right{
+display:inline-block;
+float:right;
+}
+
+.img-left{
+display:inline-block;
+float:left;
 }
 
